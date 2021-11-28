@@ -1,6 +1,6 @@
 # rofi配置
 rofi可以通过apt直接进行安装，想要进行配置就需要使用以下命令在.config文件下生成配置文件
-'''
+'''shell
 mkdir -p ~/.config/rofi
 rofi -dump-config > ~/.config/rofi/config.rasi
 '''
